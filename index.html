@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Nav Bar w/ pages -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navigation Bar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#home">Home Page</a>
+            <a class="nav-link" href="#aboutme">About Me</a>
+            <a class="nav-link" href="#portfolio">Portfolio/Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div class="container text-center my-5" id="home">
+      <header class="text-center my-5">
+        <h1>Welcome to My Website</h1>
+      </header>
+      <img src="Images/website.jpg" class="project-image" alt="description" />
+      <p class="mt-3">This website will showcase my skills for Assignment 2</p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, aperiam
+        molestiae rerum, praesentium tempore voluptates fuga deleniti voluptate
+        error consequatur numquam soluta quidem officiis eaque saepe nobis
+        deserunt architecto. Hic, molestiae odit omnis, ab nostrum iste mollitia
+        voluptas animi quos ducimus a cum beatae tempore et explicabo dolor
+        minus tempora expedita nulla libero debitis voluptates earum praesentium
+        repellendus. Sit fugiat inventore cumque at quisquam nobis! Delectus ad
+        consequatur, sint porro molestias illo minus suscipit dicta harum hic
+        obcaecati ullam nostrum aut libero quam nisi vero? Assumenda, esse.
+        Ipsam dolorem corrupti nulla amet recusandae, architecto quidem error
+        numquam nostrum asperiores ab.
+      </p>
+    </div>
+
+    <!-- About Me Page -->
+    <div class="container my-5" id="aboutme">
+      <h2 class="text-center">About me</h2>
+
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img
+            src="Images/Zaid Alssaraj Headshot.jpg"
+            class="img-fluid vertical-image"
+            alt="A picture of Zaid Alssaraj"
+          />
+        </div>
+        <div class="col-md-8">
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+            cumque iste natus nulla error inventore magnam eos autem tempora
+            adipisci? Earum modi necessitatibus repellat repudiandae quaerat
+            consequatur rem esse assumenda quae eos voluptatum similique
+            sapiente expedita, qui quo, dolorum inventore incidunt laboriosam
+            nesciunt blanditiis illum tempora fugit a nulla?
+          </p>
+        </div>
+      </div>
+      <!-- Horizontal Sections -->
+      <div class="row text-center mt-4">
+        <!-- Favorite Sites -->
+        <div class="col-md-3">
+          <h5>My Favorite Sites</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            </li>
+            <li><a href="https://www.twitch.tv" target="_blank">Twitch</a></li>
+            <li><a href="https://www.amazon.com" target="_blank">Amazon</a></li>
+            <li>
+              <a href="https://www.bestbuy.com" target="_blank">Best Buy</a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank">Twitter (X)</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Favorite Movies -->
+        <div class="col-md-3">
+          <h5>My Favorite Movies</h5>
+          <ul>
+            <li>The Great Gatsby</li>
+            <li>Spiderman</li>
+            <li>Batman</li>
+            <li>Wicked</li>
+            <li>Avengers: Endgame</li>
+          </ul>
+        </div>
+
+        <!-- Favorite Books -->
+        <div class="col-md-3">
+          <h5>My Favorite Books</h5>
+          <ul>
+            <li>The Great Gatsby</li>
+            <li>To Kill a Mockingbird</li>
+            <li>Rich Dad Poor Dad</li>
+          </ul>
+        </div>
+
+        <!-- Hobbies (Ordered List) -->
+        <div class="col-md-3">
+          <h5>My Hobbies & Fun Activities</h5>
+          <ol>
+            <li>Coding</li>
+            <li>Gaming</li>
+            <li>Watching Movies</li>
+            <li>The Gym</li>
+            <li>Running</li>
+            <li>Videography</li>
+          </ol>
+        </div>
+        <div class="container my-5 text-center">
+          <h2>My Weekly Schedule</h2>
+          <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>8:00 AM - 10:00 AM</td>
+                <td>CSCI 313</td>
+                <td>Work</td>
+                <td>CSCI 313</td>
+                <td>Work</td>
+                <td>CSCI 313</td>
+                <td>Gym</td>
+                <td>Relax</td>
+              </tr>
+              <tr>
+                <td>10:00 AM - 12:00 PM</td>
+                <td>Study</td>
+                <td>Work</td>
+                <td>Study</td>
+                <td>Work</td>
+                <td>Study</td>
+                <td>Gym</td>
+                <td>Shopping</td>
+              </tr>
+              <tr>
+                <td>12:00 PM - 2:00 PM</td>
+                <td>Lunch</td>
+                <td>CSCI 313</td>
+                <td>Lunch</td>
+                <td>CSCI 313</td>
+                <td>Lunch</td>
+                <td>Relax</td>
+                <td>Relax</td>
+              </tr>
+              <tr>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Relax</td>
+                <td>Meal Prep</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="container text-center my-5">
+        <h5>How I learned Bootsrap</h5>
+        <video controls width="400">
+          <source
+            src="https://www.youtube.com/watch?v=eow125xV5-c&t=689s"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </div>
+    <!-- Bootstrap Carousel (hobbies) -->
+    <div
+      id="imageCarousel"
+      class="carousel slide container my-5"
+      data-bs-ride="carousel"
+    >
+      <h2 class="text-center">Hobbies Carousel</h2>
+      <div class="carousel-inner project-image">
+        <div class="carousel-item active">
+          <img
+            src="Images/Gaming.jpg"
+            class="d-block w-100"
+            alt="Gaming Image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Images/Running.jpg"
+            class="d-block w-100"
+            alt="Running Image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Images/Working Out.jpg"
+            class="d-block w-100"
+            alt="Working Out Image"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#imageCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#imageCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Portfolio/Pro<jects Page -->
+    <div class="container text-center my-5" id="portfolio">
+      <h2>Portfolio/Projects</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima
+        soluta iste temporibus eius explicabo nesciunt nulla atque quasi,
+        dignissimos fuga illum minus inventore eum accusantium harum amet
+        quibusdam itaque veniam molestiae libero voluptatibus numquam optio! Ad
+        architecto totam corporis, laudantium quia accusantium ab voluptas
+        tenetur nobis fugit facilis consectetur? Beatae quas dolore rerum
+        voluptas. Laborum cum velit perspiciatis consequatur facere. Nulla
+        doloribus velit tempore aliquam aperiam delectus eius iusto autem
+        dolores assumenda, in odit, officiis dolore esse doloremque quidem
+        perferendis, porro tempora facilis cumque minus. Nam nostrum, molestias
+        numquam aperiam explicabo doloremque distinctio ex, in similique
+        deleniti accusamus corporis.
+      </p>
+      <section id="portfolio">
+        <h4>My Projects</h4>
+
+        <article class="card">
+          <img
+            src="Images/Coding.jpg"
+            class="card-img-top project-image"
+            alt="Project Screenshot"
+          />
+          <div class="card-body">
+            <h3 class="card-title">E-commerce Website</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores quis architecto beatae, quisquam exercitationem maxime
+              molestiae quaerat dignissimos quidem perferendis, nihil porro,
+              iste accusantium excepturi quod alias natus et repellat.
+            </p>
+            <a href="https://github.com/" class="btn btn-primary"
+              >View on GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="card">
+          <img
+            src="Images/Coding2.jpg"
+            class="img-fluid project-image"
+            alt="Project Screenshot"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Portfolio Website</h3>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
+              totam!
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div class="container text-center my-5" id="contact">
+      <h2>Contact us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+        libero delectus accusantium labore possimus porro, laudantium beatae
+        quis? Dolorum distinctio aliquam repellat aut veritatis nam, repudiandae
+        voluptatibus qui accusamus, ea reiciendis illo earum sit culpa? Iure,
+        odio quibusdam quisquam at cumque non tempora voluptatem, praesentium a
+        expedita, cupiditate rerum quos! Fugiat, earum explicabo. Voluptates
+        fuga est veritatis recusandae incidunt! Ea fugit, modi laudantium cumque
+        perspiciatis repudiandae unde optio provident expedita quas officia
+        consequatur consectetur atque eius a, ducimus sapiente tenetur repellat
+        vel ipsum voluptas assumenda sit temporibus? Omnis, totam soluta!
+        Veritatis fugit earum ipsa doloremque maxime, possimus totam labore
+        fugiat!
+      </p>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control"></textarea>
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#contactModal"
+        >
+          Submit
+        </button>
+      </form>
+      <address>
+        Zaid Alssaraj<br />
+        Fargo, ND 58102<br />
+        Email:
+        <a href="mailto:zaid.alssaraj@ndsu.edu">zaid.alssaraj@ndsu.edu</a><br />
+      </address>
+    </div>
+    <!-- Bootstrap Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Form Submitted</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+            possimus!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+      © 2025 My Personal Website. All rights reserved.
+    </footer>
+    <!-- BootStrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
